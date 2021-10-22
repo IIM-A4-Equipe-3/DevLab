@@ -1,9 +1,15 @@
 import LandingPage from "../client/components/LandingPage";
 import Link from "next/link";
 import Head from "next/head";
+import {FunctionComponent} from "react";
 
-// eslint-disable-next-line require-jsdoc
-export default function Home() {
+interface Props {}
+
+/**
+ * App constructor
+ * @constructor
+ */
+const Home: FunctionComponent<Props> = () => {
   return (
     <>
       <Head>
@@ -19,3 +25,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;
