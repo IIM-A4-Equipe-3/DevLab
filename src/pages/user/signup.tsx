@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 
 interface Props {}
 
-const signup: FunctionComponent<Props> = () => {
+const SignUp: FunctionComponent<Props> = () => {
   return (
     <form action="/api/user" method="POST">
       <label htmlFor="firstName">Prénom :</label>
@@ -26,4 +26,4 @@ const signup: FunctionComponent<Props> = () => {
   );
 };
 
-export default signup;
+export default SignUp;
