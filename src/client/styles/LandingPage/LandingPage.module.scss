@@ -1,0 +1,9 @@
+@import "src/client/styles/variables";
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: $bgc;
+  margin: 0;
+  padding: 0;
+}

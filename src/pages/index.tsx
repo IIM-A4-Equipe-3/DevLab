@@ -1,5 +1,4 @@
-import LandingPage from "../client/components/LandingPage";
-import Link from "next/link";
+import LandingPage from "../client/components/LandingPage/LandingPage";
 import Head from "next/head";
 import {FunctionComponent} from "react";
 
@@ -21,7 +20,6 @@ const Home: FunctionComponent<Props> = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <LandingPage />
-      <Link href="/test">Test</Link>
     </>
   );
 }
