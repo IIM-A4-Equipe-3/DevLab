@@ -42,6 +42,6 @@ export interface IUserDB extends IUserAuth {
 }
 
 /**
- * Used for sending data to the client about an User
+ * Used for sending data to the client about a User
  */
 export type IUserPublic = Omit<IUserDB, 'password'>;
